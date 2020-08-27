@@ -9,14 +9,16 @@ h1{
   text-align: center;
   
 }
+.body{
+  width: 100%;
+}
 
 button{
-  width: 12rem;
-  height: 12rem;
+  width: 25%;
+  height: 150px;
   margin-top: 50px;
-  margin-left: 9%;
-  text-decoration: none;
-  font-size: 12px;
+  margin-left: 19%;
+  font-size: 16px;
   font-weight: bold ;
   
 }
@@ -40,8 +42,9 @@ button{
   border: solid 2px#39FF14;
 }
 .btn3
-{
+{ 
   background-color:white;
+  
 }
 .btn3:hover{
   border: solid 2px#39FF14;
@@ -52,4 +55,10 @@ button{
 }
 .btn4:hover{
   border: solid 2px #39FF14;
+}
+@media(min-width: 950px)and(max-width: 1199px){
+  .md-6{
+    float:left;
+    width: 50%;
+  }
 }
