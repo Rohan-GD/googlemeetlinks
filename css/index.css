@@ -1,66 +1,45 @@
-body{
+*{
+  margin:0px;
+  padding: 0px;
   box-sizing: border-box;
-  position: relative;
-  padding: 0;
-  margin: 0;
-  background-color:white;
+
 }
 h1{
   text-align: center;
-  
 }
-.body{
-  width: 100%;
+.nav{
+  background-color: aqua;
+  height: 3rem;
+  padding: 2px;
 }
-
+ul{
+  list-style-type: none;
+}
+.container{
+  margin:auto;
+  padding: 10px;
+}
+.btn{
+  background: rgba(255, 255, 255, 0.5);
+  padding: 18px;
+  margin-left: 23%;
+  overflow: hidden;
+  transition: all 500ms ease-in;
+  float:left;
+}
 button{
-  width: 25%;
   height: 150px;
-  margin-top: 50px;
-  margin-bottom: 20px;
-  margin-left: 15%;
-  font-size: 16px;
-  font-weight: bold ;
-  
+  width: 200px;
+  padding: 10px;
+  border-radius: 20px;
+  border-style: none;
+  font-size: 18px;
 }
-
-.btn1
-{
-  background-color:white;
-  
+button:hover{
+  transform: scale(1.05);
 }
-.btn1:hover{
-  border: solid 2px #39FF14;
-}
-
-.btn2
-{
-  background-color: white;
-  
-  
-}
-.btn2:hover{
-  border: solid 2px#39FF14;
-}
-.btn3
-{ 
-  background-color:white;
-  
-}
-.btn3:hover{
-  border: solid 2px#39FF14;
-}
-.btn4
-{
-  background-color: white;
-}
-.btn4:hover{
-  border: solid 2px #39FF14;
-}
-@media(max-width: 950px){
-  .btn1,.btn2,.btn3,.btn4{
-    float:left;
-    width: 50%;
-    margin-left: 250px
+@media only screen and (max-width: 900px){
+  .btn{
+    margin-left: 16%;
   }
 }
